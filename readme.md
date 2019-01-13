@@ -22,3 +22,5 @@ plaidml-setup
 pip3 install plaidml-keras plaidbench
 plaidbench keras mobilenet
 ```
+
+Notes: current conflicts with python 3.7, tensorflow 1.12 and keras 2.2.4 due to back end changes regarding 'dim' and 'axis' renaming across multiple functions
